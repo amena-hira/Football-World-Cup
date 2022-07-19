@@ -3,6 +3,7 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
 }
 .body-width{
     margin: auto;
@@ -130,3 +131,38 @@ body{
     margin-right: 10px;
 }
 
+/* Footer */
+.footer-container{
+    width: 100%;
+    height: 444px;
+    background-color: #161616;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0;
+}
+.footer-headline{
+    font-weight: 600;
+    font-size: 30px;
+    color: white;
+    
+}
+.footer-headline h1{
+    margin-bottom: 50px;
+    margin-top: 0;
+}
+hr{
+    width: 80%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.footer-menu{
+    margin: 50px 0;
+}
+.footer-menu a{
+    text-decoration: none;
+    color: #b9b9b9;
+    font-size: 16px;
+    padding: 0 24px;
+}
