@@ -158,11 +158,17 @@ hr {
 .footer-menu {
   margin: 50px 0;
 }
-.footer-menu a {
+.footer-menu li {
+  display: inline-block;
+  list-style: none;
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px 24px;
+}
+.footer-menu li a {
   text-decoration: none;
   color: #b9b9b9;
   font-size: 16px;
-  padding: 0 24px;
 }
 
 /* media query */
@@ -232,5 +238,17 @@ hr {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 24px;
     row-gap: 24px;
+  }
+
+  /* footer */
+  .footer-menu {
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0 24px;
+  }
+  .footer-menu li a{
+    font-size: 16px;
   }
 }
