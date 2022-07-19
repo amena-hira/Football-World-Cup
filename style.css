@@ -1,0 +1,55 @@
+/* Google Font Link  */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.body-width{
+    margin: auto;
+    width: 80%;
+}
+/* Header Style */
+.container{
+    display: flex;
+    /* align-items: center; */
+    background-color: #161616;
+    color: white;
+    border-radius: 30px;
+    margin-top: 40px;
+}
+.left-header{
+    margin-right: 24px;
+    margin-left: 56px;
+    padding: 50px 0px 50px 50px;
+}
+.left-header h1{
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+.left-header p{
+    font-size: 16px;
+    line-height: 1.6;
+    width: 70%;
+}
+.half-width{
+    width: 50%;
+}
+.right-header{
+    margin-bottom: -4px;
+    margin-top: 33px;
+}
+.right-header img{
+    width: 581px;
+    height: 613px;
+}
+.link-button{
+    color: white;
+    text-decoration: none;
+    background-color: #DD0000;
+    padding: 16px 25px;
+    margin-top: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    
+}
