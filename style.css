@@ -55,10 +55,6 @@ body {
   margin-top: 10px;
   display: inline-block;
   border-radius: 5px;
-  transition: background-image 3s;
-  animation: go-backward 3s ease-in-out infinite alternate;
-  position: relative;
-  background-image: linear-gradient(to right, #dd0000, #f2d535);
 }
 /* .link-button:hover {
   animation: go-backward 3s ease-in-out infinite alternate;
@@ -251,14 +247,31 @@ hr {
 }
 
 /* Invisible for desktop */
-.invisible{
-    visibility: hidden;
+.invisible {
+  visibility: hidden;
 }
 
 /* media query */
+/* animation for desktop except mobile */
+@media screen and (min-width: 1023px) {
+  /* animation */
+  .link-button {
+    transition: background-image 3s;
+    animation: go-backward 3s ease-in-out infinite alternate;
+    position: relative;
+    background-image: linear-gradient(to right, #dd0000, #f2d535);
+  }
+}
 
 /* Tablet */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* animation */
+  .link-button {
+    transition: background-image 3s;
+    animation: go-backward 3s ease-in-out infinite alternate;
+    position: relative;
+    background-image: linear-gradient(to right, #dd0000, #f2d535);
+  }
   .body-width {
     width: 90%;
     margin-top: 0;
@@ -360,16 +373,16 @@ hr {
   }
 
   /* Visible Button */
-  .invisible{
+  .invisible {
     visibility: visible;
   }
-  .invisible{
+  .invisible {
     display: inline-block;
     text-align: center;
     margin: 20px 10px 0px 10px;
     padding: 5px 10px;
   }
-  .link-invisible{
+  .link-invisible {
     text-decoration: none;
     color: white;
     background-image: linear-gradient(to right, #dd0000, #f2d535);
@@ -455,5 +468,14 @@ hr {
   .matches {
     display: flex;
     flex-direction: column;
+  }
+
+  /* animation after hover */
+  .link-button:hover {
+    animation: go-backward 3s ease-in-out infinite alternate;
+    position: relative;
+  }
+  .link-button:hover {
+    background-image: linear-gradient(to right, #dd0000, #f2d535);
   }
 }
