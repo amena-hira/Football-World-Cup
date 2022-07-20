@@ -471,11 +471,11 @@ hr {
   }
 
   /* animation after hover */
-  .link-button:hover {
+  /* .link-button:hover {
     animation: go-backward 3s ease-in-out infinite alternate;
     position: relative;
   }
   .link-button:hover {
     background-image: linear-gradient(to right, #dd0000, #f2d535);
-  }
+  } */
 }
