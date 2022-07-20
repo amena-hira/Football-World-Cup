@@ -295,12 +295,15 @@ hr {
     font-weight: 700;
     margin-top: 0;
   }
-  .left-header p {
+  .left-header p{
+    width: 100%;
+  }
+  /* .left-header p {
     width: 250px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-  }
+  } */
 
   .right-header {
     width: 90%;
